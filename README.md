@@ -1,7 +1,7 @@
 # 关于 | About
 此EFI专门用于主板B450M MORTAR(MAX)定制，无法保证其他主板的兼容性
 
-This EFI is made for B450M MORTAR(MAX), can not guarantee support with other motherboards.
+This EFI is made for B450M MORTAR(MAX)+5700G+intelWireless, can not guarantee support with other motherboards.
 
 # ⚠️⚠️⚠️此 EFI 使用注意事项，不看90%扑街⚠️⚠️⚠️
 
