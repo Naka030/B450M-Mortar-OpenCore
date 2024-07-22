@@ -5,13 +5,13 @@ This EFI is made for B450M MORTAR(MAX), can not guarantee support with other mot
 
 # ⚠️⚠️⚠️此 EFI 使用注意事项，不看90%扑街⚠️⚠️⚠️
 
-### **1.** 默认config为物理核心数为 `6核` 的AMD CPU使用，如果你是 `4核` 或者 `8核` 及以上的请自行修改，不然无法启动
+### **1.** 默认config为物理核心数为 `8核` 的AMD CPU使用，如果你是 `4核` 或者 `8核` 及以上的请自行修改，不然无法启动
 - 首先，使用任意文本编辑器使用查找功能查找关键词 `Force cpuid_cores_per_package`，一共四个，紧接着找到对应它的键值 `Replace`，将其更改成如下表格
 - 
 | 核心数 | 数值|
 |-|-|
 |   4 Core  | `uAQAAAAA` `ugQAAAAA` `ugQAAACQ` `ugQAAAA=`|
-|   6 Core  | `uAYAAAAA` `ugYAAAAA` `ugYAAACQ` `ugYAAAA=` (默认)|
+|   6 Core  | `uAYAAAAA` `ugYAAAAA` `ugYAAACQ` `ugYAAAA=`|
 |   8 Core  | `uAgAAAAA` `uggAAAAA` `uggAAACQ` `uggAAAA=`|
 |   12 Core | `uAwAAAAA` `ugwAAAAA` `ugwAAACQ` `ugwAAAA=`|
 |   16 Core | `uBAAAAAA` `uhAAAAAA` `uhAAAACQ` `uhAAAAA=`|
